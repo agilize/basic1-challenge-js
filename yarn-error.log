@@ -1,0 +1,39 @@
+Arguments: 
+  /Users/matheussouza/.nvm/versions/node/v12.22.7/bin/node /usr/local/Cellar/yarn/1.22.17/libexec/bin/yarn.js start
+
+PATH: 
+  /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin:/Users/matheussouza/.jenv/shims:/Users/matheussouza/.jenv/shims:/Users/matheussouza/.jenv/bin:/Users/matheussouza/.nvm/versions/node/v12.22.7/bin:/Users/matheussouza/.nvm/versions/node/v12.22.7/bin:/usr/local/opt/node@14/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin:/Users/matheussouza/.jenv/shims:/Users/matheussouza/.jenv/bin:/Users/matheussouza/.nvm/versions/node/v12.22.7/bin:/Users/matheussouza/.zinit/polaris/bin:/usr/local/opt/node@14/bin:/Users/matheussouza/.fig/bin:/Users/matheussouza/.local/bin:/Users/matheussouza/Library/Android/sdk/emulator:/Users/matheussouza/Library/Android/sdk/tools:/Users/matheussouza/Library/Android/sdk/tools/bin:/Users/matheussouza/Library/Android/sdk/emulator:/Users/matheussouza/Library/Android/sdk/tools:/Users/matheussouza/Library/Android/sdk/tools/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  12.22.7
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/matheussouza/workspace/agilize/basic1-challenge-js/package.json: Unexpected token } in JSON at position 155
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "basic1-challenge-js",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+      "scripts":{
+        "start": "node index.js"
+      },
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
