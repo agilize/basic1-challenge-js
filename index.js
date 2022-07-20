@@ -29,3 +29,5 @@ class Main {
     }
   }
 }
+
+console.log(new Main().calTrip(new Date(), 4))
